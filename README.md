@@ -65,47 +65,35 @@ En primer lloc, caldrà carregar una cartografia base per situar-te al territori
 
 ![quickmapservices](static/assign2_1.gif)
 
-.. figure:: ./static/simbolizacion_1.gif
-    :align: center
+Carrega les capes **establiments_airbnb** i **airbnb_municipis** del fitxer [exercici_2.gpkg](https://drive.google.com/file/d/1ZN3IxYW3lcpDQUCNnqZs6S8Gd-E7a18X/view?usp=share_link)
 
-Carrega les capes **establiments_airbnb** i **airbnb_municipis** de l'arxiu `exercici_1.gpkg <https://drive.google.com/drive/folders/1V9kQ2VEJ0D1nuoDGw4eqbtaltAo0auzs?usp=sharing>`_.
+![quickmapservices](static/assign2_2.gif)
 
-.. figure:: ./static/simbolizacion_2.gif
-    :align: center
+La capa de polígons **airbnb_municipis** conté els municipis de la comarca de l'Alt Empodrà amb les dades relatives al nombre d'establiments d'Airbnb que hi ha a cada municipi. Aquestes dades es recullen al camp **[NUMPOINT]** de la seva taula d'atributs. En aquest camp, només s'especifica el volumn d'oferta que hi ha d'Airbnb per a l'any 2018, però no se'n concreta la tipologia d'establiment.
 
-La capa de polígons **airbnb_municipis** conté els municipis de la comarca de l'Alt Empodrà amb les dades relatives al nombre d'establiments d'Airbnb que hi ha a cada municipi. Aquestes dades es recullen al camp **[NUMPOINT]** de la taula d'atributs. En aquest camp només s'especifica el volumn d'oferta que hi ha d'Airbnb per a l'any 2018, però no se'n concreta el tipus d'establiment.
-
-.. figure:: ./static/simbolizacion_3.gif
-    :align: center
+![quickmapservices](static/assign3_2.gif)
 
 Com pots veure, l’Escala és un dels municipis amb més establiments turístics anunciats a la plataforma Airbnb. Aquesta capa d'informació permet classificar de manera gradual els municipis en funció de la seva quantitat d'oferta turística. D'aquesta manera, veuràs a simple vista quins municipis són més turístics i quins ho són menys.
 
 Per això, cal que accedeixis a l'apartat de simbolització de la capa, bé a través de les propietats de la pròpia capa (*botó dret a la capa > Properties… > Symbology*), bé prement la tecla **F7**. La simbolització de la capa et permetrà obtenir un resultat similar al que es mostra a continuació:
 
-.. figure:: ./static/simbolizacion_4.png
-    :align: center
+![quickmapservices](static/assign4_1.png)
 
 Si tens dificultats per generar el mapa de coropletes mostrat anteriorment, segueix les instruccions de la següent imatge animada per generar la teva pròpia paleta de colors.
 
-.. figure:: ./static/simbolizacion_5.gif
-    :align: center
+![quickmapservices](static/assign5_1.png)
 
-A més, la simbolització de QGIS permet aplicar efectes a la teva cartografia perquè aquesta tingui un millor acabat des del punt de vista estètic:
+A més, les eines de simbolització de QGIS, permeten aplicar efectes a la teva cartografia perquè aquesta tingui un millor acabat des del punt de vista estètic:
 
-.. figure:: ./static/simbolizacion_6.gif
-    :align: center
+![quickmapservices](static/assign6_1.png)
 
-Un cop simbolitzats els municipis per tal que representin l'oferta turística d'Airbnb, simbolitzaràs el tipus d'establiment en cada cas.
+Un cop simbolitzats els municipis per tal que representin l'oferta turística d'Airbnb a la comarca, caldrà que simbolitzis el tipus d'establiment en cada cas.
 
 Els detalls sobre la tipologia d'establiments d'Airbnb i les seves característiques, es recullen a la capa de punts **establiments_airbnb**. Si obres la taula d'atributs veuràs que els camps **[room_type]**, **[bedroom]** i **[capacity]** informen sobre les característiques de cada punt.
 
-.. figure:: ./static/simbolizacion_7.gif
-    :align: center
-
 Amb aquesta capa, podràs representar cada punt segons el tipus d'habitació (categoritzant a través de la simbologia):
 
-.. figure:: ./static/simbolizacion_7.png
-    :align: center
+![quickmapservices](static/assign6_1.png)
 
 O bé podràs indicar amb la mida de cada punt, la capacitat de cada establiment (graduant la simbologia):
 
