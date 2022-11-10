@@ -71,7 +71,7 @@ Carrega les capes **establiments_airbnb** i **airbnb_municipis** del fitxer [exe
 
 La capa de polígons **airbnb_municipis** conté els municipis de la comarca de l'Alt Empodrà amb les dades relatives al nombre d'establiments d'Airbnb que hi ha a cada municipi. Aquestes dades es recullen al camp **[NUMPOINT]** de la seva taula d'atributs. En aquest camp, només s'especifica el volumn d'oferta que hi ha d'Airbnb per a l'any 2018, però no se'n concreta la tipologia d'establiment.
 
-![quickmapservices](static/assign3_2.gif)
+![quickmapservices](static/assign3_1.gif)
 
 Com pots veure, l’Escala és un dels municipis amb més establiments turístics anunciats a la plataforma Airbnb. Aquesta capa d'informació permet classificar de manera gradual els municipis en funció de la seva quantitat d'oferta turística. D'aquesta manera, veuràs a simple vista quins municipis són més turístics i quins ho són menys.
 
@@ -81,11 +81,11 @@ Per això, cal que accedeixis a l'apartat de simbolització de la capa, bé a tr
 
 Si tens dificultats per generar el mapa de coropletes mostrat anteriorment, segueix les instruccions de la següent imatge animada per generar la teva pròpia paleta de colors.
 
-![quickmapservices](static/assign5_1.png)
+![quickmapservices](static/assign5_1.gif)
 
 A més, les eines de simbolització de QGIS, permeten aplicar efectes a la teva cartografia perquè aquesta tingui un millor acabat des del punt de vista estètic:
 
-![quickmapservices](static/assign6_1.png)
+![quickmapservices](static/assign6_1.gif)
 
 Un cop simbolitzats els municipis per tal que representin l'oferta turística d'Airbnb a la comarca, caldrà que simbolitzis el tipus d'establiment en cada cas.
 
@@ -93,7 +93,7 @@ Els detalls sobre la tipologia d'establiments d'Airbnb i les seves característi
 
 Amb aquesta capa, podràs representar cada punt segons el tipus d'habitació (categoritzant a través de la simbologia):
 
-![quickmapservices](static/assign6_1.png)
+![quickmapservices](static/assign7_1.jpg)
 
 O bé podràs indicar amb la mida de cada punt, la capacitat de cada establiment (graduant la simbologia):
 
