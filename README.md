@@ -54,3 +54,84 @@ Ja per finalitzar, un cop carregades totes les capes al panell de capes, cal que
 Finalment, desa el projecte, tanca QGIS, i obre'l de nou tot carregant el projecte desat. Es restaura completament i correctament?
 
 ----
+
+Exercici 2: simbolització d'entitats vectorials
+===============================================
+
+El pas a pas
+------------
+
+En primer lloc, caldrà carregar una cartografia base per situar-te al territori. Per fer-ho, carregaràs un WMS, per exemple, l'estàndard d'OSM. Per a dur a terme aquesta tasca, caldrà que facis ús del complement **QuickMapServices**.
+
+![quickmapservices](static/assign2_1.gif)
+
+.. figure:: ./static/simbolizacion_1.gif
+    :align: center
+
+Carrega les capes **establiments_airbnb** i **airbnb_municipis** de l'arxiu `exercici_1.gpkg <https://drive.google.com/drive/folders/1V9kQ2VEJ0D1nuoDGw4eqbtaltAo0auzs?usp=sharing>`_.
+
+.. figure:: ./static/simbolizacion_2.gif
+    :align: center
+
+La capa de polígons **airbnb_municipis** conté els municipis de la comarca de l'Alt Empodrà amb les dades relatives al nombre d'establiments d'Airbnb que hi ha a cada municipi. Aquestes dades es recullen al camp **[NUMPOINT]** de la taula d'atributs. En aquest camp només s'especifica el volumn d'oferta que hi ha d'Airbnb per a l'any 2018, però no se'n concreta el tipus d'establiment.
+
+.. figure:: ./static/simbolizacion_3.gif
+    :align: center
+
+Com pots veure, l’Escala és un dels municipis amb més establiments turístics anunciats a la plataforma Airbnb. Aquesta capa d'informació permet classificar de manera gradual els municipis en funció de la seva quantitat d'oferta turística. D'aquesta manera, veuràs a simple vista quins municipis són més turístics i quins ho són menys.
+
+Per això, cal que accedeixis a l'apartat de simbolització de la capa, bé a través de les propietats de la pròpia capa (*botó dret a la capa > Properties… > Symbology*), bé prement la tecla **F7**. La simbolització de la capa et permetrà obtenir un resultat similar al que es mostra a continuació:
+
+.. figure:: ./static/simbolizacion_4.png
+    :align: center
+
+Si tens dificultats per generar el mapa de coropletes mostrat anteriorment, segueix les instruccions de la següent imatge animada per generar la teva pròpia paleta de colors.
+
+.. figure:: ./static/simbolizacion_5.gif
+    :align: center
+
+A més, la simbolització de QGIS permet aplicar efectes a la teva cartografia perquè aquesta tingui un millor acabat des del punt de vista estètic:
+
+.. figure:: ./static/simbolizacion_6.gif
+    :align: center
+
+Un cop simbolitzats els municipis per tal que representin l'oferta turística d'Airbnb, simbolitzaràs el tipus d'establiment en cada cas.
+
+Els detalls sobre la tipologia d'establiments d'Airbnb i les seves característiques, es recullen a la capa de punts **establiments_airbnb**. Si obres la taula d'atributs veuràs que els camps **[room_type]**, **[bedroom]** i **[capacity]** informen sobre les característiques de cada punt.
+
+.. figure:: ./static/simbolizacion_7.gif
+    :align: center
+
+Amb aquesta capa, podràs representar cada punt segons el tipus d'habitació (categoritzant a través de la simbologia):
+
+.. figure:: ./static/simbolizacion_7.png
+    :align: center
+
+O bé podràs indicar amb la mida de cada punt, la capacitat de cada establiment (graduant la simbologia):
+
+.. figure:: ./static/simbolizacion_8.png
+    :align: center
+
+Ara prova d'aplicar una simbologia semblant a la teva capa de punts. Quin resultat has obtingut? Les següents indicacions et seran útils si no aconsegueixes uns resultats satisfactoris.
+
+Representació segons tipus d'establiment:
+
+.. figure:: ./static/simbolizacion_9.gif
+    :align: center
+
+Representació segons la capacitat de l'allotjament:
+
+.. figure:: ./static/simbolizacion_10.gif
+    :align: center
+
+Un cop hagis representat les dades a la teva conveniència, és moment d'afegir algunes etiquetes que poden ajudar el lector a ubicar-se al territori. Hi afegiràs els noms dels municipis tal com es mostra a la imatge següent:
+
+.. figure:: ./static/simbolizacion_11.png
+    :align: center
+
+A continuació, es detalla com fer-ho:
+
+.. figure:: ./static/simbolizacion_12.gif
+    :align: center
+
+----
