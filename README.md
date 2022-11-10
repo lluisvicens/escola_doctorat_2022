@@ -95,31 +95,26 @@ Amb aquesta capa, podràs representar cada punt segons el tipus d'habitació (ca
 
 ![quickmapservices](static/assign7_1.jpg)
 
-O bé podràs indicar amb la mida de cada punt, la capacitat de cada establiment (graduant la simbologia):
+O bé podràs indicar amb la mida de cada punt, la capacitat o el preu, de cada establiment (graduant la simbologia):
 
-.. figure:: ./static/simbolizacion_8.png
-    :align: center
+![quickmapservices](static/assign8_1.png)
 
 Ara prova d'aplicar una simbologia semblant a la teva capa de punts. Quin resultat has obtingut? Les següents indicacions et seran útils si no aconsegueixes uns resultats satisfactoris.
 
 Representació segons tipus d'establiment:
 
-.. figure:: ./static/simbolizacion_9.gif
-    :align: center
+![quickmapservices](static/assign9_1.gif)
 
-Representació segons la capacitat de l'allotjament:
+Representació segons el preu de l'allotjament:
 
-.. figure:: ./static/simbolizacion_10.gif
-    :align: center
+![quickmapservices](static/assign10_1.gif)
 
 Un cop hagis representat les dades a la teva conveniència, és moment d'afegir algunes etiquetes que poden ajudar el lector a ubicar-se al territori. Hi afegiràs els noms dels municipis tal com es mostra a la imatge següent:
 
-.. figure:: ./static/simbolizacion_11.png
-    :align: center
+![quickmapservices](static/assign11_1.jpg)
 
 A continuació, es detalla com fer-ho:
 
-.. figure:: ./static/simbolizacion_12.gif
-    :align: center
+![quickmapservices](static/assign12_1.gif)
 
 ----
