@@ -1,3 +1,24 @@
+# ALGUNS PORTALS DE DADES OBERTES (CAT, ESP, EU, MÓN)
+
+- [Visor descàrregues de l'ICGC](http://www.icc.cat/appdownloads/)
+- [Centro de Descargas del CNIG](https://centrodedescargas.cnig.es/CentroDescargas/index.jsp)
+- [Portal de Datos Abiertos de ESRI España](https://opendata.esri.es/)
+- [Banco de Datos de la Naturaleza](https://www.miteco.gob.es/es/biodiversidad/servicios/banco-datos-naturaleza/default.aspx)
+- [Portal de Dades Obertes Generalitat de Catalunya](https://analisi.transparenciacatalunya.cat/)
+- [Portal Datos Abiertos Gobierno de España](https://datos.gob.es/es/catalogo)
+- [IDESCAT](https://www.idescat.cat/)
+- [INE](https://www.ine.es/)
+- [Agència Europea del Medi Ambient](https://www.eea.europa.eu/data-and-maps)
+- [The official portal for European data](https://data.europa.eu/data/datasets?locale=es)
+- [World Bank Open Data](https://data.worldbank.org/)
+- [Our World in Data](https://ourworldindata.org/)
+- [GDAM](https://gadm.org/)
+- [Natural Earth](https://www.naturalearthdata.com/)
+- [USGS EarthExplorer](https://earthexplorer.usgs.gov/)
+- [OpenStreetMap](https://www.openstreetmap.org/)
+
+
+
 # PRÀCTICA
 
 Exercici 1: la càrrega de dades a QGIS
