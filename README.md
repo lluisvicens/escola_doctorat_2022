@@ -1,5 +1,7 @@
-# ALGUNS PORTALS DE DADES OBERTES (CAT, ESP, EU, MÓN)
+# ALGUNS PORTALS DE DADES OBERTES (LOCAL,CAT, ESP, EU, MÓN)
 
+- [Portal Dades Obertes de Girona](https://www.girona.cat/opendata/)
+- [Portal Dades Obertes de Barcelona](https://opendata-ajuntament.barcelona.cat/)
 - [Visor descàrregues de l'ICGC](http://www.icc.cat/appdownloads/)
 - [Centro de Descargas del CNIG](https://centrodedescargas.cnig.es/CentroDescargas/index.jsp)
 - [Portal de Datos Abiertos de ESRI España](https://opendata.esri.es/)
@@ -8,6 +10,7 @@
 - [Portal Datos Abiertos Gobierno de España](https://datos.gob.es/es/catalogo)
 - [IDESCAT](https://www.idescat.cat/)
 - [INE](https://www.ine.es/)
+- [EUROSTAT](https://ec.europa.eu/eurostat/data/database)
 - [Agència Europea del Medi Ambient](https://www.eea.europa.eu/data-and-maps)
 - [The official portal for European data](https://data.europa.eu/data/datasets?locale=es)
 - [World Bank Open Data](https://data.worldbank.org/)
